@@ -2,6 +2,7 @@
 layout: post
 title:  "ece rocks styleguide"
 date:   2015-01-23 17:30:00
+author: Alex Kersten
 categories: alex admin
 ---
 
