@@ -1,12 +1,12 @@
 # Site settings
 title: ece rocks
-email: alex@kersten.email
+emails: [ "alex@kersten.email", "kenneth@siu.email" ]
 description: > # this means to ignore newlines until "baseurl:"
  a blog about electrical and computer engineering
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ece.rocks" # the base hostname & protocol for your site
-twitter_username: amkersten
-github_username:  akersten
+twitter_usernames: [ "amkersten", "kungsiupanda" ]
+github_usernames:  [ "akersten", "kksiu" ]
 
 # Build settings
 markdown: kramdown
