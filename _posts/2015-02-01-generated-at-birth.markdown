@@ -13,9 +13,9 @@ make your most vital fiscal decisions. A platform via which you can borrow
  for security - a single compromise of user credentials would prove devastating
   to the unfortunate victims. Surely users would be held to the utmost
   standards of password hygiene, with complexity enforcement and mandatory
-  two-factor authentication. Surely, if such a system's security were to be
-  measured by the yardstick, and an impregnable utopia were the goalposts, we'd
-   at least be in the redzone?
+  two-factor authentication. Surely, if such a system existed and its security
+  measured by the yardstick, were an impregnable utopia the goalposts, we'd
+   at least be in the red zone.
 
 You'd better grab your napkins, because we're way back in the nosebleeds. In
 a different stadium.
@@ -27,13 +27,13 @@ aforementioned tasks and more. The only trouble is the way we authenticate
 our identity with this platform. Or, more specifically, the fact that *we
 can't*.
 
-> *Developer A:* Hey, I just committed the finishing touches for our new online
-banking login portal. Tell me what you think, yeah?
+> **Developer A:** Hey, I just committed the finishing touches for our new
+online banking login portal. Tell me what you think, yeah?
 
-> *Dev B:* This looks great and all, but where's the password field? I can only
-type in my username.
+> **Dev B:** This looks great and all, but where's the password field? I can
+only type in my username.
 
-> *Dev A:* Your username _is_ the password!
+> **Dev A:** Your username _is_ the password!
 
 Of course, I'm talking about social security numbers. We entrust our
 reputation to the enduring secrecy of a 9-digit number. A 9-digit number
