@@ -71,12 +71,7 @@ is a lot harder to lose than a 9-digit number that you give away.
 
 
  [^1]: [SSN Death Master File](http://ssdmf.info/)
- [^2]: [SSN prefixes by state](http://www.ssa.gov/employer/stateweb.htm). By
- the way, [SSN randomization](http://www.ssa.gov/employer/randomization.html)
-  is about as useful as trying to extend the longevity of the IPv4 address
-  space, and is also not relevant to you (unless you were born after June 2011)
+ [^2]: [SSN prefixes by state](http://www.ssa.gov/employer/stateweb.htm). By the way, [SSN randomization](http://www.ssa.gov/employer/randomization.html)  is about as useful as trying to extend the longevity of the IPv4 address space, and is also not relevant to you (unless you were born after June 2011)
  [^3]: [SSNs released premortem](http://cancelthesefunerals.com/)
  [^4]: Why does my ISP need to know my SSN?
- [^5]: Through some secure air-gapped hardware RNG, offloaded onto
- read-only time-locked media, and entrusted to your guardian until you are
- of-age to make independent decisions
+ [^5]: Through some secure air-gapped hardware RNG, offloaded onto read-only time-locked media, and entrusted to your guardian until you are of-age to make independent decisions
