@@ -61,7 +61,7 @@ and sign revocable subkeys with it. Use a subkey to sign whatever dreadful
 contract your local monopolistic ISP cooks up. When you're done with their
 service, revoke the key by signing a dated revocation notice with it, and
 whatever credit authority is responsible for computing your credit score will
-not honor credit adjustments after a key has been revoked. In contrast to
+not honor credit adjustments after a key has been revoked[^6]. In contrast to
 the present-day system where myriad people have had their credit destroyed
 by false accusations of unreturned equipment or breach of contract.
 
@@ -75,3 +75,4 @@ is a lot harder to lose than a 9-digit number that you give away.
 [^3]: [SSNs released premortem](http://cancelthesefunerals.com/)
 [^4]: Why does my ISP need to know my SSN?
 [^5]: Through some secure air-gapped hardware RNG, offloaded onto read-only time-locked media, and entrusted to your guardian until you are of-age to make independent decisions
+[^6]: Clearly, revoking a key in this way would signify the end of the contract, in breach or naturally (but either way provably)
