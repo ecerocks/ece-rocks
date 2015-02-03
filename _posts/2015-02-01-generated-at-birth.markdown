@@ -8,14 +8,14 @@ categories: alex
 
 Imagine a system that houses your most important data and through which you
 make your most vital fiscal decisions. A platform via which you can borrow
- against credit, relinquish power of attorney, receive government benefits, and
- command financial accounts. Surely such a platform would be routinely audited
- for security - a single compromise of user credentials would prove devastating
-  to the unfortunate victims. Surely users would be held to the utmost
-  standards of password hygiene, with complexity enforcement and mandatory
-  two-factor authentication. Surely, if such a system existed and its security
-  measured by the yardstick, were an impregnable utopia the goalposts, we'd
-   at least be in the red zone.
+against credit, relinquish power of attorney, receive government benefits, and
+command financial accounts. Surely such a platform would be routinely audited
+for security - a single compromise of user credentials would prove devastating
+to the unfortunate victims. Surely users would be held to the utmost
+standards of password hygiene, with complexity enforcement and mandatory
+two-factor authentication. Surely, if such a system existed and were
+its security measured by the yardstick, an impregnable utopia the
+goalposts, we'd at least be in the red zone.
 
 You'd better grab your napkins, because we're way back in the nosebleeds. In
 a different stadium.
@@ -37,17 +37,17 @@ only type in my username.
 
 Of course, I'm talking about social security numbers. We entrust our
 reputation to the enduring secrecy of a 9-digit number. A 9-digit number
- whose keyspace is continuously shrinking[^1], whose components can be
- predicted[^2], and whose secrecy for millions of individuals has been
- obliterated countless times over by accidental release[^3] and compromise of
-  completely auxiliary services[^4].
+whose keyspace is continuously shrinking[^1], whose components can be
+predicted[^2], and whose secrecy for millions of individuals has been
+obliterated countless times over by accidental release[^3] and compromise of
+completely auxiliary services[^4].
 
 Clearly, the system is fundamentally flawed. Let's go back to the drawing
 board and look at the problem we're trying to solve. We need a way to provide
- a proof of identify iff we truly are the person identified by that identity.
-  That is, we need a system where simply having a signature from a person
- cannot be used to generate more signatures or signatures in a different
- context.
+a proof of identify iff we truly are the person identified by that identity.
+That is, we need a system where simply having a signature from a person
+cannot be used to generate more signatures or signatures in a different
+context.
 
 Sound familiar? It should, because this is a solved problem. In fact, it has
 been solved so many times that there is an entire field of mathematics
@@ -61,17 +61,17 @@ and sign revocable subkeys with it. Use a subkey to sign whatever dreadful
 contract your local monopolistic ISP cooks up. When you're done with their
 service, revoke the key by signing a dated revocation notice with it, and
 whatever credit authority is responsible for computing your credit score will
- not honor credit adjustments after a key has been revoked. In contrast to
- the present-day system where myriad people have had their credit destroyed
- by false accusations of unreturned equipment or breach of contract.
+not honor credit adjustments after a key has been revoked. In contrast to
+the present-day system where myriad people have had their credit destroyed
+by false accusations of unreturned equipment or breach of contract.
 
 An individual can be identified by their signature, and they now have complete
 control over their identity. A secret number that is thousands of bytes long
 is a lot harder to lose than a 9-digit number that you give away.
 
 
- [^1]: [SSN Death Master File](http://ssdmf.info/)
- [^2]: [SSN prefixes by state](http://www.ssa.gov/employer/stateweb.htm). By the way, [SSN randomization](http://www.ssa.gov/employer/randomization.html)  is about as useful as trying to extend the longevity of the IPv4 address space, and is also not relevant to you (unless you were born after June 2011)
- [^3]: [SSNs released premortem](http://cancelthesefunerals.com/)
- [^4]: Why does my ISP need to know my SSN?
- [^5]: Through some secure air-gapped hardware RNG, offloaded onto read-only time-locked media, and entrusted to your guardian until you are of-age to make independent decisions
+[^1]: [SSN Death Master File](http://ssdmf.info/)
+[^2]: [SSN prefixes by state](http://www.ssa.gov/employer/stateweb.htm). By the way, [SSN randomization](http://www.ssa.gov/employer/randomization.html)  is about as useful as trying to extend the longevity of the IPv4 address space, and is also not relevant to you (unless you were born after June 2011)
+[^3]: [SSNs released premortem](http://cancelthesefunerals.com/)
+[^4]: Why does my ISP need to know my SSN?
+[^5]: Through some secure air-gapped hardware RNG, offloaded onto read-only time-locked media, and entrusted to your guardian until you are of-age to make independent decisions
