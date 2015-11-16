@@ -1,9 +1,6 @@
----
-layout: post
-title:  "generated at birth"
-date:   2015-02-01 02:00:00
-author: Alex Kersten
-categories: alex
+Title:  Generated at Birth
+Date:   2015-02-01 02:00:00
+Author: Alex Kersten
 ---
 
 Imagine a system that houses your most important data and through which you

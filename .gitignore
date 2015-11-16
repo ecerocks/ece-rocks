@@ -1,4 +1,6 @@
-_site
-.sass-cache
-_oldposts
-.idea
+Makefile
+__pycache__
+develop_server.sh
+fabfile.py
+output
+publishconf.py
